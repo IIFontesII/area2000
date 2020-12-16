@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> -=Area2000 - Xora agr ri depois </title>
+    <link href="Assets/style/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div class="head-int">
+           <div class="font-title">AREA <br>2000 </div> 
+           <p class="mini-title"> PAGINA VOLTADA PARA TESTES PERIGOSOS</p>
+        </div>
+    </header>
+    <section>
+        <div class="title">
+            Formatador de textos 2000
+            <div class="button" onclick="abrirformt()"> Abrir formatador </div>
+            <div id="formatador" class="formatador2000">
+               <div class="formatador-box">
+                <input id="campo" class="campo-formatador" type="text"/>
+                <div class="enviar" onclick="clicou()" id="submit"> enviar </div>
+                <div class="buttons">
+                    <div onclick="titleh1()" class="but button-h1"> h1 </div> 
+                    <div onclick="titleh2()" class="but button-h2"> h2 </div>
+                </div>
+                <div class="cont-box">
+                    <div id="cont" onclick="caracteres()" class="button-cont">
+                        <div class="cont-text">
+                            Contar caracteres
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div> <br>
+        <div id="campo-teste" class="campo-de-testes">
+            Escreva em mim pelo formatador.
+        </div>
+    </section>
+    <script src="Assets/script/script.js" type="text/javascript">
+    </script>
+</body>
+</html>

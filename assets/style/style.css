@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 450px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-int {
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.font-title {
+    color: greenyellow;
+    font-size: 102px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mini-title {
+    color: greenyellow;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-weight: 200;
+}
+
+section {
+    width: 100%;
+    height: 800px;
+}
+
+.title{
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    width: 180px;
+    height: 70px;
+    background: black;
+    color:white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.campo-de-testes {
+    width: 100%;
+    max-width: 1200px;
+    height: 550px;
+    margin: auto;
+}
+.formatador2000 {
+    width: 100%;
+    max-width: 400px;
+    height: 0px;
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.formatador-box {
+    width: 100%;
+    max-width: 290px;
+    height: 230px;
+}
+.campo-formatador {
+    width: 284px;
+    height: 20px;
+    outline: 0;
+    border-radius: 0px;
+    border: 1px #aaa solid;
+}
+.buttons {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.but {
+    width: 80px;
+    height: 40px;
+    background: #000;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enviar {
+    cursor: pointer;
+}
+.cont-box {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.button-cont {
+    width: 130px;
+    height: 40px;
+    background:black;
+}
+.cont-text {
+    color: white;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 13px;
+}
